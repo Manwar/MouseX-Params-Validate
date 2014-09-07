@@ -1,0 +1,11 @@
+Changes
+MANIFEST
+MANIFEST.SKIP
+SIGNATURE
+Makefile.PL
+README
+lib/MouseX/Params/Validate.pm
+t/00-load.t
+t/manifest.t
+t/pod.t
+SIGNATURE
