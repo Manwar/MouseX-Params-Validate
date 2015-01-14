@@ -1,6 +1,16 @@
 package MouseX::Params::Validate;
 
-$MouseX::Params::Validate::VERSION = '0.07';
+$MouseX::Params::Validate::VERSION = '0.08';
+
+=head1 NAME
+
+MouseX::Params::Validate - Extension of Params::Validate using Mouse's types.
+
+=head1 VERSION
+
+Version 0.08
+
+=cut
 
 use 5.006;
 use strict; use warnings;
@@ -16,16 +26,6 @@ use Sub::Exporter -setup =>
     exports => [qw( validated_hash validated_list pos_validated_list )],
     groups  => {default => [qw( validated_hash validated_list pos_validated_list )]},
 };
-
-=head1 NAME
-
-MouseX::Params::Validate - Extension of Params::Validate using Mouse's types.
-
-=head1 VERSION
-
-Version 0.07
-
-=cut
 
 my %CACHED_SPECS;
 
@@ -463,7 +463,7 @@ L<http://search.cpan.org/dist/MouseX-Params-Validate/>
 
 =head1 LICENSE AND COPYRIGHT
 
-Copyright (C) 2011-14 Mohammad S Anwar.
+Copyright (C) 2011 - 2015 Mohammad S Anwar.
 
 This  program  is  free software; you can redistribute it and/or modify it under
 the  terms  of the the Artistic License (2.0). You may obtain a copy of the full

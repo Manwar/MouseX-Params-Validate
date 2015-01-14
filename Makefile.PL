@@ -1,3 +1,5 @@
+#!/usr/bin/perl
+
 use 5.006;
 use strict;
 use warnings FATAL => 'all';
@@ -29,7 +31,8 @@ WriteMakefile(
     clean => { FILES => 'MouseX-Params-Validate-*' },
     (eval { ExtUtils::MakeMaker->VERSION(6.46) } ? (META_MERGE => {
         'meta-spec' => { version => 2 },
-        resources => {
+        provides    => { 'MouseX::Params::Validate' => { file => 'lib/MouseX/Params/Validate.pm', version => '0.08' } },
+        resources   => {
             repository => {
                 type => 'git',
                 url  => 'https://github.com/Manwar/MouseX-Params-Validate.git',

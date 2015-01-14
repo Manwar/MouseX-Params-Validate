@@ -1,6 +1,7 @@
 #!perl
 
-use strict;use warnings;
+use 5.006;
+use strict; use warnings;
 use Test::More;
 
 eval "use Test::CheckManifest 0.9";
