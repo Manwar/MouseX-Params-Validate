@@ -1,4 +1,7 @@
-Revision history for MouseX-Params-Validate
+Revision history for MouseX::Params::Validate
+
+0.09    Fri Nov 18 21:45:00 2016
+        - Updated Copyright year information.
 
 0.08    Wed Jan 14 20:26:00 2015
         - Updated Makefile.PL to generate the key 'provides' for META file correctly.

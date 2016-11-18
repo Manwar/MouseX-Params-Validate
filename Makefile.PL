@@ -11,7 +11,6 @@ WriteMakefile(
     VERSION_FROM       => 'lib/MouseX/Params/Validate.pm',
     ABSTRACT_FROM      => 'lib/MouseX/Params/Validate.pm',
     LICENSE            => 'artistic_2',
-    PL_FILES           => {},
     MIN_PERL_VERSION   => 5.006,
     CONFIGURE_REQUIRES => {
         'ExtUtils::MakeMaker' => 0,
@@ -31,12 +30,12 @@ WriteMakefile(
     clean => { FILES => 'MouseX-Params-Validate-*' },
     (eval { ExtUtils::MakeMaker->VERSION(6.46) } ? (META_MERGE => {
         'meta-spec' => { version => 2 },
-        provides    => { 'MouseX::Params::Validate' => { file => 'lib/MouseX/Params/Validate.pm', version => '0.08' } },
+        provides    => { 'MouseX::Params::Validate' => { file => 'lib/MouseX/Params/Validate.pm', version => '0.09' } },
         resources   => {
             repository => {
                 type => 'git',
-                url  => 'https://github.com/Manwar/MouseX-Params-Validate.git',
-                web  => 'https://github.com/Manwar/MouseX-Params-Validate',
+                url  => 'https://github.com/manwar/MouseX-Params-Validate.git',
+                web  => 'https://github.com/manwar/MouseX-Params-Validate',
             },
         }})
      : ()

@@ -1,6 +1,7 @@
 package MouseX::Params::Validate;
 
-$MouseX::Params::Validate::VERSION = '0.08';
+$MouseX::Params::Validate::VERSION = '0.09';
+$MouseX::Params::Validate::AUTHOR  = 'cpan:MANWAR';
 
 =head1 NAME
 
@@ -8,7 +9,7 @@ MouseX::Params::Validate - Extension of Params::Validate using Mouse's types.
 
 =head1 VERSION
 
-Version 0.08
+Version 0.09
 
 =cut
 
@@ -410,7 +411,7 @@ Mohammad S Anwar, C<< <mohammad.anwar at yahoo.com> >>
 
 =head1 REPOSITORY
 
-L<https://github.com/Manwar/MouseX-Params-Validate>
+L<https://github.com/manwar/MouseX-Params-Validate>
 
 =head1 CONTRIBUTORS
 
@@ -463,7 +464,7 @@ L<http://search.cpan.org/dist/MouseX-Params-Validate/>
 
 =head1 LICENSE AND COPYRIGHT
 
-Copyright (C) 2011 - 2015 Mohammad S Anwar.
+Copyright (C) 2011 - 2016 Mohammad S Anwar.
 
 This  program  is  free software; you can redistribute it and/or modify it under
 the  terms  of the the Artistic License (2.0). You may obtain a copy of the full
