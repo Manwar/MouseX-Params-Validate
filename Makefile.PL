@@ -30,7 +30,7 @@ WriteMakefile(
     clean => { FILES => 'MouseX-Params-Validate-*' },
     (eval { ExtUtils::MakeMaker->VERSION(6.46) } ? (META_MERGE => {
         'meta-spec' => { version => 2 },
-        provides    => { 'MouseX::Params::Validate' => { file => 'lib/MouseX/Params/Validate.pm', version => '0.09' } },
+        provides    => { 'MouseX::Params::Validate' => { file => 'lib/MouseX/Params/Validate.pm', version => '0.10' } },
         resources   => {
             repository => {
                 type => 'git',

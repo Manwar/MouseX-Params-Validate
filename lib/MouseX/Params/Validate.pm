@@ -1,6 +1,6 @@
 package MouseX::Params::Validate;
 
-$MouseX::Params::Validate::VERSION = '0.09';
+$MouseX::Params::Validate::VERSION = '0.10';
 $MouseX::Params::Validate::AUTHOR  = 'cpan:MANWAR';
 
 =head1 NAME
@@ -9,7 +9,7 @@ MouseX::Params::Validate - Extension of Params::Validate using Mouse's types.
 
 =head1 VERSION
 
-Version 0.09
+Version 0.10
 
 =cut
 

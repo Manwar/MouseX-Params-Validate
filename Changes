@@ -1,5 +1,8 @@
 Revision history for MouseX::Params::Validate
 
+0.10    Wed Nov 30 15:20:00 2016
+        - Updated test scripts (t/meta-json.t and t/meta-yml.t).
+
 0.09    Fri Nov 18 21:45:00 2016
         - Updated Copyright year information.
 
